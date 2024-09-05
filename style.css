@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    background-color:hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4 {
+    color: hsl(75, 94%, 57%);
+}
+p {
+   font-size: 14px;
+}
+
+.container a {
+    text-decoration: none;
+    color:  hsl(0, 0%, 100%);
+}
+.container a:hover {
+    background-color:hsl(75, 94%, 57%);
+    color:  hsl(0, 0%, 20%);
+}
+
+img {
+    border: 1px solid hsl(0, 0%, 12%);
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+    background-color:hsl(0, 0%, 12%) ;
+    color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 12%);
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    margin: 5% auto 5% auto;
+    padding: 2%;
+
+}
+.container a {
+    font-weight: medium;
+    background-color:hsl(0, 0%, 20%) ;
+    display: block;
+    border: 1px solid hsl(0, 0%, 20%);
+    border-radius: 10px;
+    margin: 3% auto;
+    padding: 2%;
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 70%;
+        margin: 10% auto 10% auto;
+        padding: 5%;
+    
+    }
+}
+
+@media (max-width:767px) and (min-width: 481px) {
+    .container {
+        width: 50%;
+        margin: 10% auto 10% auto;
+        padding: 5%;
+    
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .container {
+        width: 30%;
+        margin: 10% auto 10% auto;
+        padding: 5%;
+    
+    }
+}
